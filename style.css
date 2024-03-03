@@ -85,6 +85,10 @@ h2 {
 .smalllink span:hover {
     --d: 100%;
 }
+
+.smalllink i {
+    margin: 0px;
+}
 .buttons {
     display: flex;
     flex-direction: row;
@@ -129,5 +133,14 @@ h2 {
 .sidebar {
     background-color: var(--gold);
     width: 20%;
+}
+
+i {
+    margin: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--gold);
 }
 
