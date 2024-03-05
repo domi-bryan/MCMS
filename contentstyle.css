@@ -75,6 +75,8 @@ button:hover:enabled {
 }
 
 input {
+    font: 18px 'Montserrat', sans-serif;
+    font-weight: 500;
     width: max-content;
     padding: 0px;
     padding-bottom: 3px;
@@ -82,7 +84,6 @@ input {
     border-bottom: 2px solid var(--blue);
     background-color: var(--gray);
     outline: none;
-    font: 18px Helvetica, Arial, sans-serif;
 }
 
 label {
