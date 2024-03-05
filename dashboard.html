@@ -42,7 +42,7 @@
                     </div>
                     <div class="inputfields">
                         <label for="duration">Competition Duration:</label>
-                        <input type="number" id="duration" name="duration" value="60" required style="width: 60px; text-align: center;" onblur="getEndTime()" max=999>
+                        <input type="number" id="duration" name="duration" value="60" required style="width: 60px; text-align: center;" onblur="getEndTime()" min="1" max="999">
                         <label for="duration">minutes</label>
                     </div>
                     <div class="inputfields">
@@ -55,15 +55,15 @@
                 <br>
                 <div class="inputfields">
                     <label for="buffer">Buffer Time:</label>
-                    <input type="number" id="buffer" name="buffer" value="15" required style="width: 60px; text-align: center;" max="99">
+                    <input type="number" id="buffer" name="buffer" value="15" required style="width: 60px; text-align: center;" min="1" max="99">
                     <label for="buffer">minutes</label>
                 </div>
                 <br>
                 <div class="inputfields">
                     <label>Number of Questions:</label>
-                    <input type="number" id="nummcq" name="nummcq" value="10"  required style="width: 60px; text-align: center;" max="999">
+                    <input type="number" id="nummcq" name="nummcq" value="10"  required style="width: 60px; text-align: center;" min="1" max="999">
                     <label for="duration">Multiple Choice Questions and</label>
-                    <input type="number" id="numsa" name="numsa" value="5"  required style="width: 60px; text-align: center;" max="999">
+                    <input type="number" id="numsa" name="numsa" value="5"  required style="width: 60px; text-align: center;" min="1" max="999">
                     <label for="duration">Short Answer Questions</label>
                 </div>
                 <br>
