@@ -180,6 +180,7 @@ tr:nth-child(even) td {
 #logout {
     background-color: var(--red);
     color: var(--gold);
+    border-bottom: 2px solid var(--gold);
 }
 
 .sidebtn span {
